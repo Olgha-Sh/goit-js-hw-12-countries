@@ -39,7 +39,7 @@
     "lodash.debounce": "^4.0.8",
     "material-design-icons": "^3.0.1",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "pnotify": "^4.0.0",
     "postcss-loader": "^3.0.0",
@@ -48,12 +48,12 @@
     "url-loader": "^2.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.9.0",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2",
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
     "core-js": "^3.3.4",
-    "handlebars": "^4.5.3"
+    "handlebars": "^4.7.6"
   }
 }
