@@ -84,9 +84,7 @@ const searchInputCountries = e => {
     return;
   }
   info.innerHTML = '';
-  fetchCountries(inputValue)
-    .then(arr => checkAmountCountries(arr))
-    .then(data => console.log(data));
+  fetchCountries(inputValue).then(arr => checkAmountCountries(arr));
 };
 
 input.addEventListener('input', debounce(searchInputCountries, 500));
